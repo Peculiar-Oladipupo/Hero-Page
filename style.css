@@ -5,16 +5,17 @@
         background-repeat: no-repeat;
         background-size: cover;
         margin-bottom: 200px;
-        height: 359px;
+        height: 550px;
         text-align: center;
     }
 
-    h1{
+    .header{
         font-size: 50px;
         font-weight: 700px;
         color: white;
         text-align: center;
         margin-top: 250px;
+        margin-right: 100px;
     }
 
     p{
@@ -36,4 +37,27 @@ button{
     cursor: pointer;
     
 }
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 700px;
+    color: burlywood;
+   margin-left: 100px;
+    
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    margin-right: 100px;
+    color: burlywood;
 }
